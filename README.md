@@ -10,8 +10,8 @@ import runParallelProcesses from simpleMultiprocessing.py
 
 2nd argument: the function you want to run over multiple processes
 
-3rd argument: list of tuples representing the arguments you want to pass in into each function in each process.
-The length of this list should match the number of processes your are making.
+3rd argument: list of tuples representing the arguments you want to pass in into the function in each process.
+The length of this list should match the number of processes you are making.
 
 For example, if you are trying to tune a machine learning algorithm with different parameters, your arguments could look something like this:
 
