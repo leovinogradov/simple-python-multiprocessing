@@ -16,7 +16,9 @@ The length of this list should match the number of processes your are making.
 For example, if you are trying to tune a machine learning algorithm with different parameters, your arguments could look something like this:
 
 numProcesses = 2
+
 func = myTrainingFunction
+
 args = [(X_data, Y_data, myParamA=1, etc...), (X_data, Y_data, myParamA=2, etc...)]
 
 results = runParallelProcesses(numProcesses, func, args);
