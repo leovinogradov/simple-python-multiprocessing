@@ -1,6 +1,6 @@
 # Simple Python Multiprocessing
 
-This function is designed to provide simple multiprocessing capabilities to speed repetitive function calls by spreading the load among multiple codes
+This function is designed to provide simple multiprocessing capabilities to speed up repetitive function calls by spreading the load among multiple CPU cores
 
 # How to use:
 
